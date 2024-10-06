@@ -1,0 +1,34 @@
+.burgerContainer{
+    background-color: orangered;
+}
+.burger{
+    display: block;
+    color: red;
+}
+.header_li_a{
+    text-decoration: none;
+    font-size: 32px;
+    color: aqua;
+}
+.header_nav {
+    position: fixed;
+    top: 48px;
+    left: -100%;
+    width: 200px;
+    height: 144px;
+    padding: 16px 56px 16px 16px;
+    background-color: #4e1f69;
+    transition: .4s linear;
+}
+.show {
+    left: 0;
+}
+
+/* Task Two */
+
+.deleteBtn{
+    border: none;
+    font-size: 25px;
+    color: red;
+    background-color: transparent;
+}
