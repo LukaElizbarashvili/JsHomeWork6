@@ -25,11 +25,10 @@ let clearAll = document.getElementById("clearAll");
 
 btnElemetnNew.addEventListener("click", function () {
     let inputValue = inputElementNew.value;
-    // if (inputValue !=="") {
-    //     continue;
-    // } else {
-    //     break;
-    // }
+    if (inputValue === "") {
+      alert("Empty")
+      return;
+    }
   
     let li = document.createElement("li");
   
